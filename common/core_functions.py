@@ -1,5 +1,3 @@
-from nltk import WordNetLemmatizer
-from common import HyperHypoCouple as HH
 import spacy
 import gzip
 from common import parsed_sentence as ps
@@ -22,7 +20,6 @@ stopWords.add("later")
 stopWords.add("better")
 stopWords.add("biggest")
 stopWords.add("good")
-lemma = WordNetLemmatizer()
 
 def get_sentences(corpus_file):
     """
