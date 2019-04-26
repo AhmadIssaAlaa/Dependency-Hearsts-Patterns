@@ -1,7 +1,6 @@
 import spacy
 import gzip
 from common import parsed_sentence as ps
-nlp = spacy.load('en_core_web_sm')
 from spacy.lang.en.stop_words import STOP_WORDS
 stopWords = set(STOP_WORDS)
 stopWords.add("seven")
