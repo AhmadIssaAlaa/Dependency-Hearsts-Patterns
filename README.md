@@ -23,11 +23,15 @@ You can extract hypernym relations from a corpus using this tool by two steps:
 2- DHP Matching
 
 ## Corpus pre-processing
-takes as inputs:
+Takes as inputs:
+
 a list of corpus files
+
 a path for the corpus pre-processing Java Model (download "corpus_parsing.jar" from the releases in this repository)
 
 ## DHP Matching:
-takes as input the pre-processed file (the output of the first step) and extract hypernym relations from the corpus.
+Takes as input the pre-processed file (the output of the first step) and extract hypernym relations from the corpus.
+
 The result is saved into csv file of the form (hyponym, hypernym, frequency).
+
 Frequency: number of extracting one hypernym relation from the corpus.
