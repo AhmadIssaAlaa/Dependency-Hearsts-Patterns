@@ -1,5 +1,3 @@
-import spacy
-import gzip
 from common import parsed_sentence as ps
 from spacy.lang.en.stop_words import STOP_WORDS
 stopWords = set(STOP_WORDS)
@@ -28,12 +26,8 @@ def get_sentences(corpus_file):
     """
     sent = ps.parsed_sentence()
     # Read all the sentences in the file
-    if str(corpus_file).endswith(".gz"):
-        f_in = gzip.open(corpus_file, 'r')
-    elif str(corpus_file).endswith(".txt"):
-        f_in = open(corpus_file, 'r')
-    else:
-        print("wrong input file.")
+
+    f_in = open(corpus_file, 'r')
     # with gzip.open(corpus_file, 'r') as f_in:
     isNP = False
     is_root = False
