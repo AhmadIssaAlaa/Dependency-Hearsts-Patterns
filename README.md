@@ -38,6 +38,6 @@ The result of corpus pre-processing is saved into new annotated file in the same
 ## DHP Matching:
 Takes as input the pre-processed file (the output of the first step) and extract hypernym relations from the corpus.
 
-The result is saved into csv file of the form (hyponym, hypernym, frequency). The file is saved in the same directory of the input file.
+The result is saved into csv file (extracted_couples.csv) of the form (hyponym, hypernym, frequency). The file is saved in the same directory of the input file.
 
 Frequency: number of extracting one hypernym relation from the corpus.
