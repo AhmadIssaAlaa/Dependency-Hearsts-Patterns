@@ -29,7 +29,9 @@ Takes as inputs:
 
 1- a list of corpus files
 
-2- a path for the corpus pre-processing Java Model (download "corpus_parsing.jar" from the releases in this repository)
+2- a path for the corpus pre-processing Java Model 
+
+Download the model from the releases in this repository or you can use this link directly: https://github.com/AhmadIssaAlaa/Dependency-Hearsts-Patterns/releases/download/Java_Model/corpus_parsing.jar
 
 The result of corpus pre-processing is saved into new annotated file in the same directory of the corpus.
 
