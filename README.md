@@ -24,7 +24,7 @@ You can extract hypernym relations from a corpus using this tool by two steps:
 
 2- DHP Matching
 
-## Corpus pre-processing
+### Corpus pre-processing
 Takes as inputs:
 
 1- a list of corpus files
@@ -35,7 +35,7 @@ Download the model from the releases in this repository or you can use this link
 
 The result of corpus pre-processing is saved into new annotated file in the same directory of the corpus.
 
-## DHP Matching:
+### DHP Matching:
 Takes as input the pre-processed file (the output of the first step) and extract hypernym relations from the corpus.
 
 The result is saved into csv file (extracted_couples.csv) of the form (hyponym, hypernym, frequency). The file is saved in the same directory of the input file.
