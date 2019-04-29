@@ -96,6 +96,7 @@ def remove_first_occurrences_stopwords(text):
     :param text: text string
     :return: the text after removing the first occurrences of stop words in the text
     """
+    text = text.lower()
     text = remove_kind_of_like(text)
     if text == "":
         return text
