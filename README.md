@@ -41,3 +41,7 @@ Takes as input the pre-processed file (the output of the first step) and extract
 The result is saved into csv file (extracted_couples.csv) of the form (hyponym, hypernym, frequency). The file is saved in the same directory of the input file.
 
 Frequency: number of extracting one hypernym relation from the corpus.
+
+## Tool Running
+
+only run the main python script (main.py)
