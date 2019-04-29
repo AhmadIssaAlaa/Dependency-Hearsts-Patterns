@@ -1,6 +1,6 @@
 # Dependency-Hearsts-Patterns
 
-DHP is a tool to extract hypernym relation from a corpus based on dependency patterns defined in the following paper.
+DHP is a tool to extract hypernym relation from a corpus based on dependency patterns. More details about DHP exist in the following paper.
 
 > Ahmad Issa, Mounira Harzallah, Giuseppe Berio, Nicolas Béchet, Ahmad Faour. 
 > Redefining Hearst Patterns by using Dependency Relations. 10th International Conference on Knowledge Engineering and Ontology Development.
